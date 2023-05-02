@@ -26,9 +26,12 @@
 //         React.createElement("h1", {}, "I'm h1 tag")));
 
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 //To create sibling in HTML, we have to use [] in 3rd parameter
 
-const h1=React.createElement("h1", {}, "I'm h1 tag")
+const h1=React.createElement("h1", {}, "I'm h1 taggggg...")
 const h2=React.createElement("h2", {}, "I'm h2 tag")
 
 const child = React.createElement("div", { id: "child" },
